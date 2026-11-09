@@ -1,0 +1,25 @@
+{
+  "cbf": {
+    "interest_strength": 5.0,
+    "city_strength": 1.0,
+    "category_weight": 0.5,
+    "city_weight": 0.25,
+    "neighbor_shrinkage": 10.0
+  },
+  "svd": {
+    "n_factors": 10,
+    "reg": 0.02,
+    "n_epochs": 18,
+    "lr": 0.01
+  },
+  "pure_svd": {
+    "n_factors": 20
+  },
+  "hybrid": {
+    "cf_weight": 0.2,
+    "confidence_k": 0.0
+  },
+  "hybrid_rating": {
+    "svd_weight": 1.0
+  }
+}
